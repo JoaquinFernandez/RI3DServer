@@ -1,4 +1,4 @@
-package com.jfernandez.ri3d.server;
+package com.gamanne.ri3d.server;
 
 import java.io.IOException;
 import java.sql.Connection;
