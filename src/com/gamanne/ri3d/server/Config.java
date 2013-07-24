@@ -1,6 +1,7 @@
 package com.gamanne.ri3d.server;
 
 import java.util.Properties;
+import java.util.logging.Logger;
 
 /**
  * Configuration class, it opens the configuration file and has a public method to
@@ -10,6 +11,8 @@ import java.util.Properties;
  *
  */
 public class Config {
+	
+	private static Logger LOGGER = Logger.getLogger("InfoLogging");
 
     /** Property object, that holds the config file */
     Properties configFile;
@@ -36,6 +39,7 @@ public class Config {
      */
     public String getProperty(String key) {
         String value = this.configFile.getProperty(key);
+		LOGGER.info("Retrieved property: " + key + " = " + value);
         return value;
     }
 }

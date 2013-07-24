@@ -11,16 +11,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/sshd-core-0.8.0.jar"/>
-	<classpathentry kind="lib" path="lib/mina-core-2.0.5.jar"/>
-	<classpathentry kind="lib" path="lib/slf4j-api-1.5.2.jar"/>
-	<classpathentry kind="lib" path="lib/slf4j-jdk14-1.5.2.jar"/>
-	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.25-bin.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.7.5.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
